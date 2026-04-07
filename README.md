@@ -33,9 +33,9 @@ We used a **Tree Structure (Hierarchical Linked List)**:
 
 * 📘 **Course (Root Node)**
 
-  * 📂 **Modules (Linked List)**
+ * 📂 **Modules (Linked List)**
 
-    * 📄 **Lessons (Linked List)**
+ * 📄 **Lessons (Linked List)**
 
 ### Structure Design:
 
@@ -137,5 +137,7 @@ It efficiently manages course content using **modules and lessons**, while suppo
 
 The use of **dynamic memory allocation** ensures flexibility, and proper memory deallocation avoids memory leaks.
 Overall, this project provides a strong foundation for building real-world learning management systems.
+
+⭐ *Through this project, we learned how to implement tree data structures, manage dynamic memory, and build a complete CRUD-based application in C.*
 
 ---
