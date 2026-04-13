@@ -1,64 +1,85 @@
-# 📚 E-Learning Platform using Tree (C Language)
-
+##📚 E-Learning Platform using Tree (C Language)
 ---
 
-## 👩‍💻 Team Members
+#👩‍💻 Team Members
 
-* **P. Bindu Lovely**
-* **J. Muni Bhargav Reddy**
-
+• 👩 P. Bindu Lovely
+• 👨 J. Muni Bhargav Reddy
 ---
 
 ❓ Problem Statement
 
-To design and implement an E-Learning Platform in C that organizes course content in a tree-like structure (Binary Search Tree). The system should support CRUD operations (Create, Read, Update, Delete) for:
+➤ To design and implement an E-Learning Platform in C that organizes course content in a tree-like structure (Binary Search Tree).
+---
 
-Modules
-Lessons
+➤ The system should support CRUD operations:
+• ➕ Create
+• 📖 Read
+• ✏️ Update
+• ❌ Delete
 
-It should also efficiently manage memory using dynamic allocation.
+➤ For:
+• 📂 Modules
+• 📄 Lessons
+
+➤ It should efficiently manage memory using dynamic allocation.
 
 🌳 Data Structure Used
 
-We used a Binary Search Tree (BST) Structure (Hierarchical Representation):
+➤ Binary Search Tree (BST) – Hierarchical representation
 
-📘 Course (Root Node)
-📂 Modules (BST Nodes)
-📄 Lessons (BST Nodes)
-Structure Design:
+📘 Course (root node)
+⬇
+📂 Modules (BST nodes)
+⬇
+📄 Lessons (BST nodes)
+
+➤ Structure Design:
 Course → Module → Lesson
-Each module contains multiple lessons organized using BST
-Implemented using typedef struct
+
+➤ Each module contains multiple lessons organized using BST
+
+➤ Implemented using typedef struct
+
 ⚙️ Algorithm Explanation
-🟢 1. Create Course
-Allocate memory for course
-Initialize module tree as NULL
-🟢 2. Add Module
-Create new module node
-Insert into BST based on module name
-🟢 3. Add Lesson
-Find module
-Insert lesson into BST based on lesson name
-🟢 4. Display Course
-Traverse modules using inorder traversal
-For each module, traverse lessons using inorder traversal
-🟢 5. Delete Module
-Find module in BST
-Delete all its lessons
-Remove module node using BST deletion rules
-🟢 6. Delete Lesson
-Find lesson inside module BST
-Remove node using BST deletion logic
-🟢 7. Update Module/Lesson
-Search by name
-Replace with new name
-🟢 8. Search Module
-Traverse BST
-Compare using strcmp()
-🟢 9. Free Memory
-Free all lessons (BST traversal)
-Free all modules (BST traversal)
-Free course node
+
+1️⃣ Create Course
+➤ Allocate memory for course
+➤ Initialize module tree as NULL
+-
+2️⃣ Add Module
+➤ Create new module node
+➤ Insert into BST based on module name
+-
+3️⃣ Add Lesson
+➤ Find module
+➤ Insert lesson into BST based on lesson name
+-
+4️⃣ Display Course
+➤ Traverse modules using inorder traversal
+➤ For each module, traverse lessons using inorder traversal
+-
+5️⃣ Delete Module
+➤ Find module in BST
+➤ Delete all its lessons
+➤ Remove module node using BST deletion rules
+--
+6️⃣ Delete Lesson
+➤ Find lesson inside module BST
+➤ Remove node using BST deletion logic
+-
+7️⃣ Update Module / Lesson
+➤ Search by name
+➤ Replace with new name
+
+8️⃣ Search Module
+➤ Traverse BST
+➤ Compare using strcmp()
+
+9️⃣ Free Memory
+➤ Free all lessons (BST traversal)
+➤ Free all modules (BST traversal)
+➤ Free course node
 ---
 
 ## 🛠️ Compilation Instructions
