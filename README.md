@@ -1,4 +1,4 @@
-# 📚 E-Learning Platform using Tree (C Language)
+# 📚 E-Learning Platform using Binary Search Tree (C Language)
 
 ---
 
